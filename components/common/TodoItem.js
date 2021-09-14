@@ -3,7 +3,7 @@ import { useTodo } from '../store/store';
 const TodoItem = () => {
     const todos = useTodo();
 
-    console.log(todos);
+    // console.log(todos);
 
     return (
         <div>

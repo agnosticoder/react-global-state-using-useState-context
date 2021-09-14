@@ -15,6 +15,23 @@ body{
     color: $third;
 }
 
+.body-div{
+    height: 100vh;
+}
+
+.body-dark{
+    // transition: 1s all ease;
+    background-color: $third;
+    color: $forth;
+
+    button {
+        // transition: 1s all ease;
+        color: $forth;
+        background-color: #444;
+    }
+}
+
+
 button{
     cursor: pointer;
 

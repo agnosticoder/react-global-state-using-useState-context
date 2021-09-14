@@ -10,3 +10,19 @@
         align-self: center;
     }
 }
+
+.header-dark {
+    color: $forth;
+    background-color: $lightthird;
+    border-bottom: 1px solid $second;
+    
+    a {
+        color: $fifth;
+        text-decoration: underline;
+        // transition: .2s all ease;
+
+        &:hover{
+            color: rgba($fifth, .3);
+        }
+    }
+}

@@ -27,7 +27,6 @@ const Todos = () => {
     };
 
     const deleteTodo = () => {
-        console.log('Delete Todo');
         setTodos((old) => {
             const update = old.filter((todo) => todo.id !== 'id One');
             return update;
